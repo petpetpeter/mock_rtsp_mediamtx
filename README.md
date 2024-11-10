@@ -8,5 +8,5 @@ docker compose up -d
 
 - test rtsp link
 ```
-
+rtsp://localhost:8554/mystream
 ```
