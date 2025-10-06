@@ -10,3 +10,8 @@ docker compose up -d
 ```
 rtsp://localhost:8554/mystream
 ```
+
+- test cli
+```
+ffmpeg -rtsp_transport tcp -i rtsp://localhost:8554/mystream -c copy out.mp4
+```
